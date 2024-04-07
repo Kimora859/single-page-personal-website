@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: 100%;
+  background-color: #7e6217;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+.header nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+.header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+.header nav ul li a:hover {
+  color: #000;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 0.3rem 1rem;
+}
+
+.section1 {
+  width: 100%;
+  padding: 50px 0;
+}
+.section1 #about h1 {
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+}
+.section1 #about p {
+  text-align: center;
+  font-size: 20px;
+}
+
+.section2 {
+  width: 100%;
+  padding: 50px 0;
+}
+.section2 #portfolio h1 {
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+}
+.section2 #portfolio .project1 {
+  padding: 50px 0;
+}
+.section2 #portfolio .project1 h2 {
+  font-size: 30px;
+}
+.section2 #portfolio .project1 p {
+  font-size: 20px;
+}
+.section2 #portfolio .project1 .degenerate {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 1rem;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+  margin-top: 1.69rem;
+}
+.section2 #portfolio .project1 .degenerate img {
+  width: 500px;
+  margin-top: 20px;
+}
+.section2 #portfolio .project2 {
+  padding: 50px 0;
+}
+.section2 #portfolio .project2 h2 {
+  font-size: 30px;
+}
+.section2 #portfolio .project2 p {
+  font-size: 20px;
+}
+.section2 #portfolio .project2 .ecommerce {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 1rem;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+  margin-top: 1.69rem;
+}
+.section2 #portfolio .project2 .ecommerce img {
+  width: 500px;
+  margin-top: 20px;
+}
+
+.section3 {
+  width: 100%;
+  padding: 50px 0;
+}
+.section3 #contact h1 {
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+}
+.section3 #contact .icons {
+  margin: 0rem 36rem;
+}
+.section3 #contact .icons a {
+  text-decoration: none;
+}
+.section3 #contact .icons a i {
+  width: 34.965px;
+  height: 34.039px;
+  color: #000;
+  padding: 20px 15px;
+}
+
+footer {
+  background-color: #7e6217;
+  padding: 20px 0;
+  text-align: center;
+}
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+footer h3 {
+  color: #fff;
+}/*# sourceMappingURL=personal.css.map */
